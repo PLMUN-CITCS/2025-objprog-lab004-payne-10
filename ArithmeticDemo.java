@@ -18,17 +18,18 @@ public class ArithmeticDemo {
         int quotient = num1 / num2;
         int remainder = num1 % num2;
 
-        // Step-by-step calculation of the expression (num1 + num2) * 2 - num2 / 2
-        int expressionResult = (num1 + num2) * 2 - num2 / 2;
+        // Calculate the expression result (num1 + num2) * 2 - (num1 / num2)
+        int expressionResult = (num1 + num2) * 2 - (num1 / num2);
 
-        // Display the results
+        // Display the exact output required
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
         System.out.println("Remainder: " + remainder);
         System.out.println("Expression Result: " + expressionResult);
-        
+
+        // Close the scanner
         scanner.close();
     }
 }
